@@ -1,173 +1,111 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 470" width="100%" height="100%" style="background: transparent; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;">
+<svg xmlns="http://www.w3.org/2000/svg" width="840.0" height="880.0" viewBox="0 0 840.0 880.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
   <defs>
-    <!-- Card background gradient -->
-    <linearGradient id="info-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#161b22" stop-opacity="0.96" />
-      <stop offset="50%" stop-color="#0d1117" stop-opacity="0.98" />
-      <stop offset="100%" stop-color="#090d12" stop-opacity="1" />
+    <linearGradient id="info-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111722" />
+      <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
-
-    <!-- Neon border gradient -->
-    <linearGradient id="info-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5" />
-      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#00ff88" stop-opacity="0.6" />
-    </linearGradient>
-
-    <!-- Header bar subtle gradient -->
-    <linearGradient id="info-header-bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#21262d" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#161b22" stop-opacity="0.8" />
-    </linearGradient>
-
-    <!-- Glow filter -->
-    <filter id="info-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="1.5" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
   </defs>
 
-  <!-- Card Background -->
-  <rect x="1" y="1" width="438" height="468" rx="14" ry="14" fill="url(#info-bg)" stroke="url(#info-border)" stroke-width="1.2" />
+  <!-- Terminal Window Background -->
+  <rect width="840.0" height="880.0" rx="12" fill="url(#info-bg)" />
+  <rect x="0.5" y="0.5" width="839.0" height="879.0" rx="12" fill="none" stroke="#30363d" stroke-width="1" />
 
-  <!-- Inner glass edge -->
-  <rect x="2" y="2" width="436" height="466" rx="13" ry="13" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1" />
+  <!-- macOS Titlebar -->
+  <line x1="0" y1="36.0" x2="840.0" y2="36.0" stroke="#30363d" stroke-width="1" />
+  <circle cx="24" cy="18" r="5.5" fill="#ff5f56" />
+  <circle cx="44" cy="18" r="5.5" fill="#ffbd2e" />
+  <circle cx="64" cy="18" r="5.5" fill="#27c93f" />
+  <text x="420.0" y="22" fill="#7d8590" font-size="13" font-weight="500" text-anchor="middle">shamilshiras@github: ~ neofetch</text>
 
-  <!-- macOS Window Header -->
-  <path d="M 2 15 A 13 13 0 0 1 15 2 L 425 2 A 13 13 0 0 1 438 15 L 438 36 L 2 36 Z" fill="url(#info-header-bg)" />
-  <line x1="2" y1="36" x2="438" y2="36" stroke="#30363d" stroke-width="0.8" />
+  <!-- Neofetch Content Body with Staggered Slide-Up & Fade-In -->
+  <g id="neofetch-lines">
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.200s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.200s" fill="freeze" />
+      <text x="44.0" y="82.0" fill="#38bdf8" font-size="26" font-weight="700">shamilshiras@github</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.265s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.265s" fill="freeze" />
+      <text x="44.0" y="138.0" fill="#f0883e" font-size="19" font-weight="600">Now        </text>
+      <text x="194.0" y="138.0" fill="#e6edf3" font-size="19" font-weight="400">Python Developer (Backend &amp; ML)</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.330s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.330s" fill="freeze" />
+      <text x="44.0" y="170.0" fill="#f0883e" font-size="19" font-weight="600">Edu        </text>
+      <text x="194.0" y="170.0" fill="#e6edf3" font-size="19" font-weight="400">B.Tech CS &amp; Design, Vimal Jyothi '26</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.395s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.395s" fill="freeze" />
+      <text x="44.0" y="202.0" fill="#f0883e" font-size="19" font-weight="600">Loc        </text>
+      <text x="194.0" y="202.0" fill="#e6edf3" font-size="19" font-weight="400">Kerala, India</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.460s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.460s" fill="freeze" />
+      <text x="44.0" y="252.0" fill="#38bdf8" font-size="22" font-weight="700">- Stack</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.525s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.525s" fill="freeze" />
+      <text x="44.0" y="286.0" fill="#f0883e" font-size="19" font-weight="600">Languages  </text>
+      <text x="194.0" y="286.0" fill="#e6edf3" font-size="19" font-weight="400">Python, JavaScript, SQL</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.590s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.590s" fill="freeze" />
+      <text x="44.0" y="318.0" fill="#f0883e" font-size="19" font-weight="600">Backend    </text>
+      <text x="194.0" y="318.0" fill="#e6edf3" font-size="19" font-weight="400">Django, Django REST Framework, ORM</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.655s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.655s" fill="freeze" />
+      <text x="44.0" y="350.0" fill="#f0883e" font-size="19" font-weight="600">AI / ML    </text>
+      <text x="194.0" y="350.0" fill="#e6edf3" font-size="19" font-weight="400">NLP, IndicBERT/MuRIL, Scikit-learn, Pandas</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.720s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.720s" fill="freeze" />
+      <text x="44.0" y="382.0" fill="#f0883e" font-size="19" font-weight="600">DevOps     </text>
+      <text x="194.0" y="382.0" fill="#e6edf3" font-size="19" font-weight="400">Docker, Apache Airflow, Git, Postman</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.785s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.785s" fill="freeze" />
+      <text x="44.0" y="414.0" fill="#f0883e" font-size="19" font-weight="600">Database   </text>
+      <text x="194.0" y="414.0" fill="#e6edf3" font-size="19" font-weight="400">MySQL, SQLite, Relational SQL</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.850s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.850s" fill="freeze" />
+      <text x="44.0" y="464.0" fill="#38bdf8" font-size="22" font-weight="700">- Highlights</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.915s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.915s" fill="freeze" />
+      <text x="44.0" y="498.0" fill="#e6edf3" font-size="18" font-weight="400">• Smart Shield: Real-time AI Cyberbullying Detection (NLP)</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.980s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.980s" fill="freeze" />
+      <text x="44.0" y="530.0" fill="#e6edf3" font-size="18" font-weight="400">• SkillSight: Daily ETL Pipeline in Airflow (&lt;1.5s MySQL)</text>
+    </g>
+    <g opacity="0" transform="translate(0, 12)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="1.045s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="1.045s" fill="freeze" />
+      <text x="44.0" y="562.0" fill="#e6edf3" font-size="18" font-weight="400">• Qualcomm AI Upskilling &amp; Python Masterclass Certified</text>
+    </g>
+  </g>
 
-  <!-- Window Control Buttons (macOS Traffic Lights) -->
-  <circle cx="20" cy="19" r="5.5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5" />
-  <circle cx="38" cy="19" r="5.5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5" />
-  <circle cx="56" cy="19" r="5.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
-
-  <!-- Window Title -->
-  <text x="220" y="23" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="500" letter-spacing="0.3">shamilshiras@workstation: ~ (neofetch)</text>
-
-  <!-- Neofetch Content Body (Staggered Slide Up & Fade In) -->
-  <g id="neofetch-body">
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.200s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.200s" fill="freeze" />
-      <text x="28" y="64" font-size="13" font-weight="700">
-        <tspan fill="#00f0ff" filter="url(#info-glow)">Shamilshiras</tspan>
-        <tspan fill="#8b949e">@</tspan>
-        <tspan fill="#bc8cff" filter="url(#info-glow)">cyberdeck</tspan>
-      </text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.260s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.260s" fill="freeze" />
-      <line x1="28" y1="78" x2="412" y2="78" stroke="#21262d" stroke-width="1" />
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.320s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.320s" fill="freeze" />
-      <text x="28" y="94" font-size="11" font-weight="600" fill="#f0883e">NAME       </text>
-      <text x="116" y="94" font-size="11" font-weight="500" fill="#f0f6fc">Shamil Shiras A</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.380s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.380s" fill="freeze" />
-      <text x="28" y="114" font-size="11" font-weight="600" fill="#38bdf8">ROLE       </text>
-      <text x="116" y="114" font-size="11" font-weight="500" fill="#f0f6fc">Python Developer // Backend &amp; ML</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.440s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.440s" fill="freeze" />
-      <text x="28" y="134" font-size="11" font-weight="600" fill="#58a6ff">EDUCATION  </text>
-      <text x="116" y="134" font-size="11" font-weight="500" fill="#f0f6fc">B.Tech CS &amp; Design '26 (VJEC)</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.500s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.500s" fill="freeze" />
-      <text x="28" y="154" font-size="11" font-weight="600" fill="#00ff88">LOCATION   </text>
-      <text x="116" y="154" font-size="11" font-weight="500" fill="#f0f6fc">Kerala, India</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.560s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.560s" fill="freeze" />
-      <line x1="28" y1="174" x2="412" y2="174" stroke="#21262d" stroke-width="1" />
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.620s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.620s" fill="freeze" />
-      <text x="28" y="190" font-size="11" font-weight="600" fill="#00f0ff">LANGUAGES  </text>
-      <text x="116" y="190" font-size="11" font-weight="500" fill="#f0f6fc">Python, JavaScript, SQL</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.680s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.680s" fill="freeze" />
-      <text x="28" y="210" font-size="11" font-weight="600" fill="#58a6ff">BACKEND    </text>
-      <text x="116" y="210" font-size="11" font-weight="500" fill="#f0f6fc">Django, Django REST, ORM, REST APIs</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.740s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.740s" fill="freeze" />
-      <text x="28" y="230" font-size="11" font-weight="600" fill="#39d353">AI / ML    </text>
-      <text x="116" y="230" font-size="11" font-weight="500" fill="#f0f6fc">NLP, IndicBERT, Scikit-learn, Pandas</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.800s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.800s" fill="freeze" />
-      <text x="28" y="250" font-size="11" font-weight="600" fill="#f0883e">DATABASES  </text>
-      <text x="116" y="250" font-size="11" font-weight="500" fill="#f0f6fc">MySQL, SQLite, Relational SQL</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.860s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.860s" fill="freeze" />
-      <text x="28" y="270" font-size="11" font-weight="600" fill="#bc8cff">DEV TOOLS  </text>
-      <text x="116" y="270" font-size="11" font-weight="500" fill="#f0f6fc">Docker, Apache Airflow, Git, Postman</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.920s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.920s" fill="freeze" />
-      <line x1="28" y1="290" x2="412" y2="290" stroke="#21262d" stroke-width="1" />
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.980s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.980s" fill="freeze" />
-      <text x="28" y="306" font-size="11" font-weight="600" fill="#f0883e">PROJECTS   </text>
-      <text x="116" y="306" font-size="11" font-weight="500" fill="#f0f6fc">Smart Shield (NLP), SkillSight (ETL)</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="1.040s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="1.040s" fill="freeze" />
-      <text x="28" y="326" font-size="11" font-weight="600" fill="#39d353">CERTS      </text>
-      <text x="116" y="326" font-size="11" font-weight="500" fill="#f0f6fc">Qualcomm AI (2025) • Python Masterclass</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="1.100s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="1.100s" fill="freeze" />
-      <text x="28" y="346" font-size="11" font-weight="600" fill="#00f0ff">STATUS     </text>
-      <text x="116" y="346" font-size="11" font-weight="500" fill="#58ffd3">● Seeking Python Developer Roles</text>
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="1.160s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="1.160s" fill="freeze" />
-      <line x1="28" y1="366" x2="412" y2="366" stroke="#21262d" stroke-width="1" />
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="1.220s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="1.220s" fill="freeze" />
-      <rect x="28" y="382" width="18" height="10" rx="2" fill="#161b22" /> <rect x="28" y="395" width="18" height="10" rx="2" fill="#30363d" /> <rect x="51" y="382" width="18" height="10" rx="2" fill="#ff5555" /> <rect x="51" y="395" width="18" height="10" rx="2" fill="#ff6e6e" /> <rect x="74" y="382" width="18" height="10" rx="2" fill="#50fa7b" /> <rect x="74" y="395" width="18" height="10" rx="2" fill="#69ff94" /> <rect x="97" y="382" width="18" height="10" rx="2" fill="#f1fa8c" /> <rect x="97" y="395" width="18" height="10" rx="2" fill="#ffffa5" /> <rect x="120" y="382" width="18" height="10" rx="2" fill="#bd93f9" /> <rect x="120" y="395" width="18" height="10" rx="2" fill="#d6acff" /> <rect x="143" y="382" width="18" height="10" rx="2" fill="#ff79c6" /> <rect x="143" y="395" width="18" height="10" rx="2" fill="#ff92df" /> <rect x="166" y="382" width="18" height="10" rx="2" fill="#8be9fd" /> <rect x="166" y="395" width="18" height="10" rx="2" fill="#a4ffff" /> <rect x="189" y="382" width="18" height="10" rx="2" fill="#f8f8f2" /> <rect x="189" y="395" width="18" height="10" rx="2" fill="#ffffff" />
-    </g>
-    <g opacity="0" transform="translate(0, 8)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="1.280s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="1.280s" fill="freeze" />
-      <text x="28" y="420" font-size="11" font-weight="600">
-        <tspan fill="#39d353">➜ </tspan>
-        <tspan fill="#00f0ff">~ </tspan>
-        <tspan fill="#8b949e">$ </tspan>
-        <tspan fill="#f0f6fc">echo $STATUS // 200 OK</tspan>
-      </text>
-      <rect x="200" y="410.5" width="7" height="12" rx="1" fill="#00ff88">
-        <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="1.480s" repeatCount="indefinite" />
-      </rect>
-    </g>
+  <!-- Interactive Terminal Prompt at bottom -->
+  <g transform="translate(44.0, 858.0)">
+    <text fill="#7d8590" font-size="13" font-weight="500">
+      <tspan fill="#39d353">➜ </tspan><tspan fill="#38bdf8">~ </tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#f0f6fc">echo $STATUS // ready</tspan>
+    </text>
+    <rect x="200" y="-11" width="7" height="13" fill="#39d353">
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="1.110s" repeatCount="indefinite" />
+    </rect>
   </g>
 </svg>
