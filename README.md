@@ -11,7 +11,7 @@
 <table>
   <tr>
     <td valign="top" style="border: none; padding: 0;">
-      <img src="./info-card.svg" width="420" alt="Shamilshiras — Neofetch card" />
+      <img src="./info-card.svg" width="720" alt="Shamilshiras — Neofetch card" />
     </td>
   </tr>
 </table>
