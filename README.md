@@ -1,14 +1,14 @@
 <!-- CYBER_PROFILE_START -->
 <div align="center">
 
-<h3><code>shamil shiras A</code></h3>
+<h3><code>Shamil shiras A</code></h3>
 
 <img src="./github-contribution-animation.svg" width="860" alt="Shamilshiras's GitHub contribution graph" />
 
 <br>
 <br>
 
-<h3><code>shamilshiras@github ~ $ whoami</code></h3>
+<h3><code>shamilshiras</code></h3>
 
 <table>
   <tr>
