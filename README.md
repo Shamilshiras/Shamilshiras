@@ -17,15 +17,9 @@
 </table>
 
 </div>
-<!-- CYBER_PROFILE_END -->
+
 
 <br>
-
-## 👤 About Me
-- 🎓 **Education:** B.Tech in **Computer Science and Design** (Class of 2026) at *Vimal Jyothi Engineering College, Chemperi*.
-- 🎯 **Target Roles:** **Python Developer**, **Backend Software Engineer**, **Junior ML Engineer**.
-- 💡 **Core Focus:** Building clean, scalable backend systems in **Django / REST APIs**, automated **Apache Airflow ETL pipelines**, and **NLP-powered machine learning** tools.
-- 📍 **Location:** Kerala, India.
 
 
 ## 📬 Connect with Me
