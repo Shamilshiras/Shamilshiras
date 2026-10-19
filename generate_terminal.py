@@ -253,7 +253,7 @@ def build_terminal_svg(ascii_lines, username="shamilshiras"):
   <circle cx="56" cy="19" r="5.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
 
   <!-- Window Title -->
-  <text x="{width // 2}" y="23" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="500" letter-spacing="0.3">{username}@cyberdeck: ~ (zsh)</text>
+  <text x="{width // 2}" y="23" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="500" letter-spacing="0.3">{username.lower()}@workstation: ~ (zsh)</text>
 
   <!-- ASCII Art Section (Row-by-row Reveal) -->
   <g id="ascii-art" font-size="{font_size}" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" xml:space="preserve">''')
@@ -320,12 +320,12 @@ def build_terminal_svg(ascii_lines, username="shamilshiras"):
       </rect>
     </g>''')
 
-    # Output line: username
+    # Output line: Full name from resume
     t_out_start = t_cmd_end + 0.25
     y_out = height - 54
-    user_display = username
+    user_display = "Shamil Shiras A"
     
-    svg_parts.append(f'''    <!-- Command Output (Username) -->
+    svg_parts.append(f'''    <!-- Command Output (Full Name) -->
     <g transform="translate(26, {y_out})">
       <text font-size="13" font-weight="700" fill="#00f0ff" opacity="0" filter="url(#cursor-glow)">
         <animate attributeName="opacity" from="0" to="1" dur="0.15s" begin="{t_out_start:.3f}s" fill="freeze" />
@@ -337,17 +337,17 @@ def build_terminal_svg(ascii_lines, username="shamilshiras"):
     t_final_prompt = t_out_start + 0.30
     y_final = height - 26
     
-    svg_parts.append(f'''    <!-- Next Line Prompt & Blinking Terminal Cursor -->
+    svg_parts.append(f'''    <!-- Target Role & Blinking Terminal Cursor -->
     <g transform="translate(26, {y_final})" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="{t_final_prompt:.3f}s" fill="freeze" />
       <text font-size="11" font-weight="500">
         <tspan fill="#39d353">⚡ </tspan>
-        <tspan fill="#8b949e">access: </tspan>
-        <tspan fill="#58ffd3">granted </tspan>
-        <tspan fill="#8b949e">[session: active]</tspan>
+        <tspan fill="#8b949e">target: </tspan>
+        <tspan fill="#58ffd3">Python Developer </tspan>
+        <tspan fill="#8b949e">[Django &amp; ML]</tspan>
       </text>
       <!-- Blinking Cursor -->
-      <rect x="236" y="-10" width="7" height="12" rx="1" fill="#39d353">
+      <rect x="248" y="-10" width="7" height="12" rx="1" fill="#39d353">
         <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="{t_final_prompt + 0.1:.3f}s" repeatCount="indefinite" />
       </rect>
     </g>

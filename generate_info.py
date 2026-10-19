@@ -17,34 +17,34 @@ def build_info_svg(username="shamilshiras"):
     width = 440
     height = 470
     
-    # Neofetch rows: (type, label, value, label_color, value_color)
+    # Neofetch rows tailored to Shamil Shiras A (Resume)
     # Types: 'title', 'divider', 'item', 'palette', 'footer'
     rows_data = [
         # Distro Header
-        ("title", f"{username}@cyberdeck", "", "#00f0ff", "#bc8cff"),
+        ("title", f"{username.lower()}@workstation", "", "#00f0ff", "#bc8cff"),
         ("divider", "", "", "", ""),
         
-        # About Section
-        ("item", "OS", "macOS Sequoia // Darwin arm64", "#58a6ff", "#f0f6fc"),          # Blue / White
-        ("item", "HOST", "MacBook Pro // Apple Silicon M-Series", "#38bdf8", "#f0f6fc"), # Cyan / White
-        ("item", "UPTIME", "99.98% // Continuous Deployment", "#39d353", "#f0f6fc"),    # Green / White
-        ("item", "ROLE", "Full-Stack Architect & AI Engineer", "#f0883e", "#f0f6fc"),   # Orange / White
-        ("item", "ABOUT", "Autonomous systems & distributed tech", "#f0f6fc", "#8b949e"),# White / Muted
-        
-        ("divider", "", "", "", ""),
-        
-        # Stack Section
-        ("item", "LANGUAGES", "Python, TypeScript, Rust, Go, SQL", "#00f0ff", "#f0f6fc"),# Cyan
-        ("item", "FRAMEWORKS", "FastAPI, React, Next.js, Node, PyTorch", "#58a6ff", "#f0f6fc"), # Blue
-        ("item", "DEV OPS", "Docker, Kubernetes, AWS, GitHub Actions", "#bc8cff", "#f0f6fc"), # Purple
-        ("item", "STORAGE", "PostgreSQL, Redis, Vector Databases", "#39d353", "#f0f6fc"), # Green
+        # About / Profile Section
+        ("item", "NAME", "Shamil Shiras A", "#f0883e", "#f0f6fc"),                     # Orange / White
+        ("item", "ROLE", "Python Developer // Backend & ML", "#38bdf8", "#f0f6fc"),     # Cyan / White
+        ("item", "EDUCATION", "B.Tech CS & Design '26 (VJEC)", "#58a6ff", "#f0f6fc"),   # Blue / White
+        ("item", "LOCATION", "Kerala, India", "#00ff88", "#f0f6fc"),                    # Green / White
         
         ("divider", "", "", "", ""),
         
-        # Highlights Section
-        ("item", "PROJECTS", "Autonomous AI Agents, Vector Search", "#f0883e", "#f0f6fc"), # Orange
-        ("item", "COMMITS", "2,400+ past year // Clean CI Pipelines", "#39d353", "#f0f6fc"), # Green
-        ("item", "STATUS", "● Active // Crafting next-gen systems", "#00f0ff", "#58ffd3"), # Cyan / Mint
+        # Technical Stack Section
+        ("item", "LANGUAGES", "Python, JavaScript, SQL", "#00f0ff", "#f0f6fc"),         # Cyan
+        ("item", "BACKEND", "Django, Django REST, ORM, REST APIs", "#58a6ff", "#f0f6fc"), # Blue
+        ("item", "AI / ML", "NLP, IndicBERT, Scikit-learn, Pandas", "#39d353", "#f0f6fc"), # Green
+        ("item", "DATABASES", "MySQL, SQLite, Relational SQL", "#f0883e", "#f0f6fc"),  # Orange
+        ("item", "DEV TOOLS", "Docker, Apache Airflow, Git, Postman", "#bc8cff", "#f0f6fc"), # Purple
+        
+        ("divider", "", "", "", ""),
+        
+        # Highlights & Projects Section
+        ("item", "PROJECTS", "Smart Shield (NLP), SkillSight (ETL)", "#f0883e", "#f0f6fc"), # Orange
+        ("item", "CERTS", "Qualcomm AI (2025) • Python Masterclass", "#39d353", "#f0f6fc"), # Green
+        ("item", "STATUS", "● Seeking Python Developer Roles", "#00f0ff", "#58ffd3"),  # Cyan / Mint
         
         ("divider", "", "", "", ""),
         
@@ -111,7 +111,7 @@ def build_info_svg(username="shamilshiras"):
   <circle cx="56" cy="19" r="5.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
 
   <!-- Window Title -->
-  <text x="{width // 2}" y="23" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="500" letter-spacing="0.3">{username}@cyberdeck: ~ (neofetch)</text>
+  <text x="{width // 2}" y="23" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="500" letter-spacing="0.3">{username.lower()}@workstation: ~ (neofetch)</text>
 
   <!-- Neofetch Content Body (Staggered Slide Up & Fade In) -->
   <g id="neofetch-body">''')

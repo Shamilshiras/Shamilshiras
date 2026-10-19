@@ -46,7 +46,7 @@
   <circle cx="56" cy="19" r="5.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
 
   <!-- Window Title -->
-  <text x="220" y="23" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="500" letter-spacing="0.3">shamilshiras@cyberdeck: ~ (zsh)</text>
+  <text x="220" y="23" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="500" letter-spacing="0.3">shamilshiras@workstation: ~ (zsh)</text>
 
   <!-- ASCII Art Section (Row-by-row Reveal) -->
   <g id="ascii-art" font-size="9" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" xml:space="preserve">
@@ -234,24 +234,24 @@
         <set attributeName="opacity" to="0" begin="2.570s" fill="freeze" />
       </rect>
     </g>
-    <!-- Command Output (Username) -->
+    <!-- Command Output (Full Name) -->
     <g transform="translate(26, 416)">
       <text font-size="13" font-weight="700" fill="#00f0ff" opacity="0" filter="url(#cursor-glow)">
         <animate attributeName="opacity" from="0" to="1" dur="0.15s" begin="2.820s" fill="freeze" />
-        shamilshiras
+        Shamil Shiras A
       </text>
     </g>
-    <!-- Next Line Prompt & Blinking Terminal Cursor -->
+    <!-- Target Role & Blinking Terminal Cursor -->
     <g transform="translate(26, 444)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.120s" fill="freeze" />
       <text font-size="11" font-weight="500">
         <tspan fill="#39d353">⚡ </tspan>
-        <tspan fill="#8b949e">access: </tspan>
-        <tspan fill="#58ffd3">granted </tspan>
-        <tspan fill="#8b949e">[session: active]</tspan>
+        <tspan fill="#8b949e">target: </tspan>
+        <tspan fill="#58ffd3">Python Developer </tspan>
+        <tspan fill="#8b949e">[Django &amp; ML]</tspan>
       </text>
       <!-- Blinking Cursor -->
-      <rect x="236" y="-10" width="7" height="12" rx="1" fill="#39d353">
+      <rect x="248" y="-10" width="7" height="12" rx="1" fill="#39d353">
         <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="3.220s" repeatCount="indefinite" />
       </rect>
     </g>

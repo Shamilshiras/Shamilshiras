@@ -46,7 +46,7 @@
   <circle cx="56" cy="19" r="5.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
 
   <!-- Window Title -->
-  <text x="220" y="23" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="500" letter-spacing="0.3">shamilshiras@cyberdeck: ~ (neofetch)</text>
+  <text x="220" y="23" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="500" letter-spacing="0.3">shamilshiras@workstation: ~ (neofetch)</text>
 
   <!-- Neofetch Content Body (Staggered Slide Up & Fade In) -->
   <g id="neofetch-body">
@@ -54,7 +54,7 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.200s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.200s" fill="freeze" />
       <text x="28" y="64" font-size="13" font-weight="700">
-        <tspan fill="#00f0ff" filter="url(#info-glow)">shamilshiras</tspan>
+        <tspan fill="#00f0ff" filter="url(#info-glow)">Shamilshiras</tspan>
         <tspan fill="#8b949e">@</tspan>
         <tspan fill="#bc8cff" filter="url(#info-glow)">cyberdeck</tspan>
       </text>
@@ -67,61 +67,61 @@
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.320s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.320s" fill="freeze" />
-      <text x="28" y="94" font-size="11" font-weight="600" fill="#58a6ff">OS         </text>
-      <text x="116" y="94" font-size="11" font-weight="500" fill="#f0f6fc">macOS Sequoia // Darwin arm64</text>
+      <text x="28" y="94" font-size="11" font-weight="600" fill="#f0883e">NAME       </text>
+      <text x="116" y="94" font-size="11" font-weight="500" fill="#f0f6fc">Shamil Shiras A</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.380s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.380s" fill="freeze" />
-      <text x="28" y="114" font-size="11" font-weight="600" fill="#38bdf8">HOST       </text>
-      <text x="116" y="114" font-size="11" font-weight="500" fill="#f0f6fc">MacBook Pro // Apple Silicon M-Series</text>
+      <text x="28" y="114" font-size="11" font-weight="600" fill="#38bdf8">ROLE       </text>
+      <text x="116" y="114" font-size="11" font-weight="500" fill="#f0f6fc">Python Developer // Backend &amp; ML</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.440s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.440s" fill="freeze" />
-      <text x="28" y="134" font-size="11" font-weight="600" fill="#39d353">UPTIME     </text>
-      <text x="116" y="134" font-size="11" font-weight="500" fill="#f0f6fc">99.98% // Continuous Deployment</text>
+      <text x="28" y="134" font-size="11" font-weight="600" fill="#58a6ff">EDUCATION  </text>
+      <text x="116" y="134" font-size="11" font-weight="500" fill="#f0f6fc">B.Tech CS &amp; Design '26 (VJEC)</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.500s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.500s" fill="freeze" />
-      <text x="28" y="154" font-size="11" font-weight="600" fill="#f0883e">ROLE       </text>
-      <text x="116" y="154" font-size="11" font-weight="500" fill="#f0f6fc">Full-Stack Architect &amp; AI Engineer</text>
+      <text x="28" y="154" font-size="11" font-weight="600" fill="#00ff88">LOCATION   </text>
+      <text x="116" y="154" font-size="11" font-weight="500" fill="#f0f6fc">Kerala, India</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.560s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.560s" fill="freeze" />
-      <text x="28" y="174" font-size="11" font-weight="600" fill="#f0f6fc">ABOUT      </text>
-      <text x="116" y="174" font-size="11" font-weight="500" fill="#8b949e">Autonomous systems &amp; distributed tech</text>
+      <line x1="28" y1="174" x2="412" y2="174" stroke="#21262d" stroke-width="1" />
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.620s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.620s" fill="freeze" />
-      <line x1="28" y1="194" x2="412" y2="194" stroke="#21262d" stroke-width="1" />
+      <text x="28" y="190" font-size="11" font-weight="600" fill="#00f0ff">LANGUAGES  </text>
+      <text x="116" y="190" font-size="11" font-weight="500" fill="#f0f6fc">Python, JavaScript, SQL</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.680s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.680s" fill="freeze" />
-      <text x="28" y="210" font-size="11" font-weight="600" fill="#00f0ff">LANGUAGES  </text>
-      <text x="116" y="210" font-size="11" font-weight="500" fill="#f0f6fc">Python, TypeScript, Rust, Go, SQL</text>
+      <text x="28" y="210" font-size="11" font-weight="600" fill="#58a6ff">BACKEND    </text>
+      <text x="116" y="210" font-size="11" font-weight="500" fill="#f0f6fc">Django, Django REST, ORM, REST APIs</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.740s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.740s" fill="freeze" />
-      <text x="28" y="230" font-size="11" font-weight="600" fill="#58a6ff">FRAMEWORKS </text>
-      <text x="116" y="230" font-size="11" font-weight="500" fill="#f0f6fc">FastAPI, React, Next.js, Node, PyTorch</text>
+      <text x="28" y="230" font-size="11" font-weight="600" fill="#39d353">AI / ML    </text>
+      <text x="116" y="230" font-size="11" font-weight="500" fill="#f0f6fc">NLP, IndicBERT, Scikit-learn, Pandas</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.800s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.800s" fill="freeze" />
-      <text x="28" y="250" font-size="11" font-weight="600" fill="#bc8cff">DEV OPS    </text>
-      <text x="116" y="250" font-size="11" font-weight="500" fill="#f0f6fc">Docker, Kubernetes, AWS, GitHub Actions</text>
+      <text x="28" y="250" font-size="11" font-weight="600" fill="#f0883e">DATABASES  </text>
+      <text x="116" y="250" font-size="11" font-weight="500" fill="#f0f6fc">MySQL, SQLite, Relational SQL</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.860s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.860s" fill="freeze" />
-      <text x="28" y="270" font-size="11" font-weight="600" fill="#39d353">STORAGE    </text>
-      <text x="116" y="270" font-size="11" font-weight="500" fill="#f0f6fc">PostgreSQL, Redis, Vector Databases</text>
+      <text x="28" y="270" font-size="11" font-weight="600" fill="#bc8cff">DEV TOOLS  </text>
+      <text x="116" y="270" font-size="11" font-weight="500" fill="#f0f6fc">Docker, Apache Airflow, Git, Postman</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.920s" fill="freeze" />
@@ -132,19 +132,19 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.980s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="0.980s" fill="freeze" />
       <text x="28" y="306" font-size="11" font-weight="600" fill="#f0883e">PROJECTS   </text>
-      <text x="116" y="306" font-size="11" font-weight="500" fill="#f0f6fc">Autonomous AI Agents, Vector Search</text>
+      <text x="116" y="306" font-size="11" font-weight="500" fill="#f0f6fc">Smart Shield (NLP), SkillSight (ETL)</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="1.040s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="1.040s" fill="freeze" />
-      <text x="28" y="326" font-size="11" font-weight="600" fill="#39d353">COMMITS    </text>
-      <text x="116" y="326" font-size="11" font-weight="500" fill="#f0f6fc">2,400+ past year // Clean CI Pipelines</text>
+      <text x="28" y="326" font-size="11" font-weight="600" fill="#39d353">CERTS      </text>
+      <text x="116" y="326" font-size="11" font-weight="500" fill="#f0f6fc">Qualcomm AI (2025) • Python Masterclass</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="1.100s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.24s" begin="1.100s" fill="freeze" />
       <text x="28" y="346" font-size="11" font-weight="600" fill="#00f0ff">STATUS     </text>
-      <text x="116" y="346" font-size="11" font-weight="500" fill="#58ffd3">● Active // Crafting next-gen systems</text>
+      <text x="116" y="346" font-size="11" font-weight="500" fill="#58ffd3">● Seeking Python Developer Roles</text>
     </g>
     <g opacity="0" transform="translate(0, 8)">
       <animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="1.160s" fill="freeze" />

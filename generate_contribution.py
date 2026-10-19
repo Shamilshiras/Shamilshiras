@@ -160,8 +160,8 @@ def build_contribution_svg(grid, username="shamilshiras", total_contributions=24
     </circle>
 
     <!-- Title and Subtitle -->
-    <text x="44" y="32" fill="#f0f6fc" font-size="13" font-weight="700" letter-spacing="0.8">ACTIVITY STREAM // TELEMETRY</text>
-    <text x="44" y="47" fill="#8b949e" font-size="11" font-weight="500">{total_contributions:,} contributions in the last year • Streak: {streak_days} days</text>
+    <text x="44" y="32" fill="#f0f6fc" font-size="13" font-weight="700" letter-spacing="0.8">ACTIVITY STREAM // SHAMIL SHIRAS A</text>
+    <text x="44" y="47" fill="#8b949e" font-size="11" font-weight="500">Python • Django • Airflow • NLP • MySQL • {total_contributions:,} commits (Streak: {streak_days}d)</text>
 
     <!-- Neon Top-Right Badge -->
     <rect x="{width - 150}" y="22" width="124" height="24" rx="12" ry="12" fill="#161b22" stroke="#238636" stroke-width="1" />
@@ -240,7 +240,7 @@ def build_contribution_svg(grid, username="shamilshiras", total_contributions=24
     
     # Left footer note
     svg_parts.append(f'''    <text x="64" y="{height - 18}" fill="#8b949e" font-size="10" font-weight="500">
-      <tspan fill="#39d353">⚡</tspan> Continuous Deployment: <tspan fill="#e6edf3" font-weight="600">Active</tspan> • <tspan fill="#00f0ff">@shamilshiras</tspan>
+      <tspan fill="#39d353">⚡</tspan> Python Developer • <tspan fill="#e6edf3" font-weight="600">Open for Roles</tspan> • <tspan fill="#00f0ff">github.com/{username}</tspan>
     </text>''')
     
     # Legend on bottom right: Less [0, 1, 2, 3, 4] More
