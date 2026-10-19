@@ -22,7 +22,7 @@
     <g opacity="0" transform="translate(0, 12)">
       <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.200s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="0.28s" begin="0.200s" fill="freeze" />
-      <text x="44.0" y="82.0" fill="#38bdf8" font-size="26" font-weight="700">shamilshiras</text>
+      <text x="44.0" y="82.0" fill="#38bdf8" font-size="26" font-weight="700">shamil shiras</text>
     </g>
     <g opacity="0" transform="translate(0, 12)">
       <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="0.265s" fill="freeze" />
