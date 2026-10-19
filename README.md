@@ -8,13 +8,8 @@
 <br>
 <br>
 
-<h3><code>shamilshiras</code></h3>
-
 <table>
   <tr>
-    <td valign="top" style="border: none; padding: 0;">
-      <img src="./terminal-card.svg" width="420" alt="Shamilshiras — ASCII portrait" />
-    </td>
     <td valign="top" style="border: none; padding: 0;">
       <img src="./info-card.svg" width="420" alt="Shamilshiras — Neofetch card" />
     </td>
