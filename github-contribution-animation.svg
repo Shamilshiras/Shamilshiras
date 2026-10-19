@@ -1537,9 +1537,4 @@
       <animate attributeName="fill" values="#ffffff;#2e3742;#161b22" keyTimes="0;0.3;1" dur="0.40s" begin="1.624s" fill="freeze" />
     </rect>
   </g>
-
-  <!-- Total contributions at bottom matching Image 1 -->
-  <text x="38" y="152" fill="#e6edf3" font-size="13" font-weight="700" letter-spacing="0.3">
-    2,418 contributions in the last year
-  </text>
 </svg>
