@@ -1,7 +1,7 @@
 <!-- CYBER_PROFILE_START -->
 <div align="center">
 
-<h3><code>shamilshiras@github ~ $ ./contributions.sh</code></h3>
+<h3><code>shamil shiras A</code></h3>
 
 <img src="./github-contribution-animation.svg" width="860" alt="Shamilshiras's GitHub contribution graph" />
 
